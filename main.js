@@ -1,13 +1,12 @@
-
 function getClothes() {
   var xhttp = new XMLHttpRequest();
-  console.log(xhttp); {
+  xhttp.onreadystagechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       var myClothes = JSON.parse(this.responseText);
-      document.getElementById('info').src = myObj.sprites.front_default;
-      console.log(this.responseText);
+      console.log(myClothes.clothes);
+
     }
     };
-    xhttp.open("GET","https://github.com/jdworman/tactics-data.git", true);
-    console.log(xhttp);
+    xhttp.open("GET","https://raw.githubusercontent.com/jdworman/tactics-data/master/tactics.json", true);
     xhttp.send();
+  }
