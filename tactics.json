@@ -1,12 +1,12 @@
 {
   "clothes": {
     "shirts": {
-      "t-shirt": {"style": black, "cost": 20},
-      "pants": {"style": blue jeans, "cost": 160},
-      "hat": {"style": baseball, "cost": 40 },
-      "socks": {"style": ankle, "cost": 15 },
-      "shoes": {"style": running, "cost": 240 },
-      "belt": {"style": casual, "cost": 70 }
+      "t-shirt": {"style": "black", "cost": 20},
+      "pants": {"style": "blue jeans", "cost": 160},
+      "hat": {"style": "baseball", "cost": 40 },
+      "socks": {"style": "ankle", "cost": 15 },
+      "shoes": {"style": "running", "cost": 240 },
+      "belt": {"style": "casual", "cost": 70 }
     }
   }
 }
