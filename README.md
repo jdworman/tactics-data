@@ -1,0 +1,1 @@
+I wanted to build a clothing website with bootstrap.  I played around with some of the objects and designs and came up with this.  I liked how interactive it is and the color scheme.  
